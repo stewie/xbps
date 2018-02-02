@@ -1248,7 +1248,7 @@ xbps-0.21 (2013-03-11):
    compares the whole file list between current and new package. A test has been
    added to the kyua testsuite to test its correctness.
 
- * Imported Portable proplib 0.6.3 from http://code.google.com/p/portableproplib.
+ * Imported Portable proplib 0.6.3 from https://github.com/xtraeme/portableproplib
 
  * xbps-query(1): a full dependency tree can now be shown in the
    show-deps mode, by specifying -x twice (--show-deps), e.g:
@@ -1560,7 +1560,7 @@ xbps-0.16.5 (2012-07-14):
 
 xbps-0.16.4 (2012-07-10):
 
- * Imported proplib 0.6.1 from http://code.google.com/p/portableproplib.
+ * Imported proplib 0.6.1 from https://github.com/xtraeme/portableproplib
 
  * libxbps: when finding obsolete files also match against sha256, not
    just the filename. Also ignore symlinks found in rootfs to make
@@ -1717,7 +1717,7 @@ xbps-0.15 (2012-04-06):
    available in repository pool. Thanks to dave for testing!
 
  * Started a test suite for libxbps. Tests are written for Kyua
-   (http://code.google.com/p/kyua) and can be built and installed
+   (https://github.com/jmmv/kyua) and can be built and installed
    with the --with-tests configure option, by default will be installed
    to EPREFIX/tests but can be overriden with --testsdir. ATF 0.15
    (part of Kyua) is required to build the test suite.
@@ -1949,7 +1949,7 @@ xbps-0.10.1 (2011-10-26):
 xbps-0.10.0 (2011-10-21):
 
  * Fixed issue 11 "xbps-bin fails to update properly some pkgs".
-	http://code.google.com/p/xbps/issues/detail?id=11
+	hxxp://code.google.com/p/xbps/issues/detail?id=11
 
  * xbps-bin(1): the 'check' target now is able to detect if a package
    was installed manually and other packages are currently depending
@@ -1961,13 +1961,13 @@ xbps-0.10.0 (2011-10-21):
    repositories.plist) are stored.
 
  * New configuration scheme for virtual packages as defined in
-	http://code.google.com/p/xbps/issues/detail?id=12
+	hxxp://code.google.com/p/xbps/issues/detail?id=12
 
    XBPS now reads all plist files in PREFIX/etc/xbps/virtualpkg.d.wants
    directory with settings for the wanted virtual packages.
 
  * New configuration scheme as defined in
-	http://code.google.com/p/xbps/issues/detail?id=12
+	hxxp://code.google.com/p/xbps/issues/detail?id=12
 
    A directory to store XBPS configuration files is now used, by default
    set to PREFIX/etc/xbps. Configuration options are now set via
